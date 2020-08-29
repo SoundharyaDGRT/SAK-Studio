@@ -23,32 +23,48 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
 }
-
-/*Media Queries*/
-@media (max-width:320px) {
-  h1{
-    font-size: 1rem;
-    letter-spacing: 3px;
-  }
-  
+.nav-item{
+  margin-right:15px;
 }
+/*Media Queries*/
 @media (min-width:1000px) {
-  h1{
+  .centered h1{
     font-size: 50px;
   }
 }
-@media(max-width:420px)
-{
-  h1{
-    font-size: 20px;
-    letter-spacing: 4px;
+
+@media(max-width:560px){
+  .centered h1{
+    visibility: hidden;
+
     
   }
 }
 @media(max-width:425px){
-  h1{
+  .centered h1{
     font-size: 15px;
     letter-spacing: 5px;
+    visibility: hidden;
     
   }
+}
+
+@media(max-width:420px)
+{
+  .centered h1{
+    font-size: 20px;
+    letter-spacing: 4px;
+    visibility: hidden;
+    
+  }
+}
+
+@media (max-width:320px) {
+  .centered h1{
+    font-size: 1rem;
+    letter-spacing: 3px;
+    content: none;
+    visibility: hidden;
+  }
+  
 }
