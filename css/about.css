@@ -1,0 +1,14 @@
+body{
+    
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+}
+.jumbotron{
+    background-color: #09c7fb;
+    background-image: linear-gradient(315deg, #09c7fb 0%, #93fb9d 74%);
+    
+}
+#about{
+    color: white;
+    
+}
