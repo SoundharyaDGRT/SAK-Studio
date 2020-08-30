@@ -3,6 +3,7 @@ body{
     background-color: #000000;
     background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
 }
+
 .jumbotron{
     background-color: #09c7fb;
     background-image: linear-gradient(315deg, #09c7fb 0%, #93fb9d 74%);
@@ -11,4 +12,41 @@ body{
 #about{
     color: white;
     
+}
+h1{
+    color: white;
+}
+h3{
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+h4{
+    color: #b7d7e8;
+}
+#team img{
+    margin-top: -50px;
+}
+#team p{
+    font-weight: 500; 
+    color: black; 
+}
+#team .card{
+    border-radius: 0;
+    box-shadow: 5px 5px 15px #e74c3c;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+#team .card:hover{
+ background: #e74c3c;
+    color: #fff;
+    border: none;
+    box-shadow: 5px 5px 10px #9e9e9e;
+}
+#team .card:hover h3{
+    color: #fff;
+}
+.newline{
+    color: white;
 }
